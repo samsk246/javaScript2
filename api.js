@@ -85,3 +85,10 @@ let deleteApi = async () => {
     console.log(res);
   });
 };
+let conf = confirm("want to add details");
+if (conf) {
+  let a = prompt("name");
+  let b = prompt("age");
+  console.log(a);
+  console.log(b);
+}
