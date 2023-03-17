@@ -78,11 +78,11 @@ let apiData;
 
 //api for delete user 2
 
-let deleteApi = async () => {
+async function deleteApi() {
   await fetch("http://localhost:3004/posts/3", {
     method: "DELETE",
   }).then((res) => {
     console.log(res);
-    return res
+    return res;
   });
-};
+}
