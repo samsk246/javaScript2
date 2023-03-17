@@ -83,5 +83,6 @@ let deleteApi = async () => {
     method: "DELETE",
   }).then((res) => {
     console.log(res);
+    return res
   });
 };
