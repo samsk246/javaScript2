@@ -76,7 +76,7 @@ let apiData;
 //     });
 //   };
 
-//api for delete user 
+//api for delete user 2
 
 let deleteApi = async () => {
   await fetch("http://localhost:3004/posts/3", {
